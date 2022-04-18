@@ -15,7 +15,7 @@ pipeline {
     
     stage("deploy") {
       steps {
-        echo 'deploying the portfolio app ...
+        echo 'deploying the portfolio app ...'
       }
     }
   }
