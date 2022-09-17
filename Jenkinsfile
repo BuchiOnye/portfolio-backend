@@ -4,7 +4,7 @@ pipeline {
     stage("build") {
       steps{
          echo 'building portfolio app ...'
-        maven(maven-3.8.6){
+        maven('maven-3.8.6'){
           sh 'mvn clean package -DskipTests'
         }
       }
